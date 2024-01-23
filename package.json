@@ -2,6 +2,14 @@
   "name": "lasles-vpn-landing-page",
   "version": "0.1.0",
   "private": true,
+  "author": "ichsankurnia",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ichsankurnia/his-super-apps.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ichsankurnia/his-super-apps/issues"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,19 +17,29 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "clsx": "^2.1.0",
+    "framer-motion": "^10.18.0",
+    "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.1.0"
+    "react-scroll": "^1.9.0",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
+    "tailwind-merge": "^2.2.0"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/react-scroll": "^1.8.10",
+    "@types/react-slick": "^0.23.13",
     "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "i": "^0.3.7",
+    "npm": "^10.3.0",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.1.0"
+    "typescript": "^5"
   }
 }
