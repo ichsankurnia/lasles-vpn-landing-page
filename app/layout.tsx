@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
@@ -11,7 +11,6 @@ export const metadata: Metadata = {
   description: 'Landing page VPN LaslesVPN Best VPN For Privacy, Country and Cheapest',
   // change base url of your web (without '/' at the end)
   robots: 'follow, index',
-  themeColor: '#F53838',
   icons: [
     { rel: "icon", url: '/favicon/android-icon-72x72.png' },
     { rel: "apple-touch-icon", type: 'image/png', url: '/favicon/apple-icon-180x180.png' }
@@ -20,6 +19,10 @@ export const metadata: Metadata = {
   // used in twitter, facebook, etc. card when link copied in tweet/status 
   authors: [{ name: 'ichsankurnia', url: 'https://ichsankurnia-portfolio.vercel.app' }],
 };
+
+export const viewport: Viewport = {
+  themeColor: '#F53838',
+}
 
 export default function RootLayout({
   children,

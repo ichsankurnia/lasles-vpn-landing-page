@@ -5,10 +5,10 @@
   "author": "ichsankurnia",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ichsankurnia/his-super-apps.git"
+    "url": "git+https://github.com/ichsankurnia/lasles-vpn-landing-page.git"
   },
   "bugs": {
-    "url": "https://github.com/ichsankurnia/his-super-apps/issues"
+    "url": "https://github.com/ichsankurnia/lasles-vpn-landing-page/issues"
   },
   "scripts": {
     "dev": "next dev",
